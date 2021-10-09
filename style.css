@@ -1,0 +1,59 @@
+header {
+    background-color: black;
+    height: 120px;
+    border-bottom: 3px solid red;
+    margin: -8px;
+    width: 100%;
+    position: fixed;
+}
+
+
+.navigation :hover {
+    color: rgb(255, 0, 0);  
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+    font-size: 30px;
+    margin: 50px;
+    line-height: 105px;
+}
+
+.logo-pivo {
+    position: absolute;
+    right: 15cm;
+    top: 2px;
+}
+
+.logo-podpis {
+    position: absolute;
+    top: 5px;
+    right: 18px;
+}
+
+.gogi {
+    text-align: center;
+    padding-top: 150px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+gogi-logo {
+    text-align: center;
+    display: list-item;
+}
+
+.gogi-text {
+ position: absolute;
+ left: 530px;
+ bottom: 300px;
+ font-size: 30px;
+}
+
+.box-shadow {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px red;
+}
+
